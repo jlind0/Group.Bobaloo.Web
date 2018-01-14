@@ -66,6 +66,8 @@
   <ItemGroup>
     <Content Include="images\hangman.jpg" />
     <Content Include="images\shakers.jpg" />
+    <Content Include="images\shakers2.jpg" />
+    <Content Include="images\shakers3.jpg" />
     <Content Include="index.css" />
     <Content Include="index.html" />
     <Content Include="Web.config" />

@@ -10,7 +10,7 @@ Forces image to be 100% width and not max width of 100%
 */
 .carousel-item .img-fluid {
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 /* 
@@ -20,8 +20,25 @@ anchors are inline so you need ot make them block to go full width
     display: block;
     width: 100%;
 }
+.carousel-caption {
+    bottom:0px;
+    top:20px;
+}
+.carousel-caption h2 a {
+    font-weight: 700;
+    color: aqua;
+}
+.black {
+    color: cornsilk;
+    
+}
+.carousel-caption p {
+    font-weight:900;
+    color: orangered;
+    font-size:larger;
+}
 
-.carousel-caption h2 a{
-    font-weight:500;
-    color: ghostwhite;
+.carousel-indicators{
+    bottom:0px;
+    top:30px;
 }
